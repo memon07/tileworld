@@ -2053,6 +2053,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56353b71a9e9240d5b005b5338d91fe8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  runSpeed: 5
+  jumpSpeed: 5
 --- !u!1 &2055567711
 GameObject:
   m_ObjectHideFlags: 0
@@ -3394,12 +3396,12 @@ PrefabInstance:
     - target: {fileID: 4487378269516208044, guid: 8b37ed07c21394c4cb64d58222616e8b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.67
+      value: 0.12
       objectReference: {fileID: 0}
     - target: {fileID: 4487378269516208044, guid: 8b37ed07c21394c4cb64d58222616e8b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.14
+      value: 4.13
       objectReference: {fileID: 0}
     - target: {fileID: 4487378269516208044, guid: 8b37ed07c21394c4cb64d58222616e8b,
         type: 3}
